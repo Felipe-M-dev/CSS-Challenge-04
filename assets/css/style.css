@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Smooch&display=swap);
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vh;
+  gap: 2vh;
+  padding: 2vh;
+}
+
+.card, body {
+  background-color: black;
+  font-family: "Smooch", cursive, cursive;
+  color: white;
+}
+
+.card .btn, body .btn, .card .btn btn-primary, .btn .card btn-primary, body .btn btn-primary, .btn body btn-primary {
+  background-color: #c85fc8;
+}
+
+.btn btn-primary {
+  font-family: "Smooch", cursive;
+}
+
+body {
+  background-color: grey;
+}
+
+.card-title {
+  color: #c85fc8;
+  font-family: "Smooch", cursive;
+}

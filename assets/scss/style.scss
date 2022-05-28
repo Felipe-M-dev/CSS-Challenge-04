@@ -1,0 +1,43 @@
+// Google Fonts
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Smooch&display=swap);
+// Fonts
+$font-family-allure: 'Smooch',
+cursive;
+// Styles
+$primary-color: rgb(200, 95, 200);
+$bgcolor: black;
+$textcolor: white;
+//Utilities
+//Components
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vh;
+    gap: 2vh;
+    padding: 2vh;
+}
+
+.card {
+    background-color: $bgcolor;
+    font-family: $font-family-allure, cursive;
+    color: $textcolor;
+    .btn {
+        background-color: $primary-color;
+    }
+}
+
+.btn btn-primary {
+    font-family: $font-family-allure;
+    @extend .btn;
+}
+
+body {
+    background-color: grey;
+    @extend .card;
+}
+
+.card-title {
+    color: $primary-color;
+    font-family: $font-family-allure;
+}
