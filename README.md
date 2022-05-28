@@ -20,7 +20,7 @@ Para lograr este cambio visual del componente deberás crear una nueva variable 
 
 <p align="center">
   <img src="https://github.com/Felipe-M-dev/CSS-Challenge-04/blob/main/assets/img/02.png?raw=true?raw=true" alt="Imagen 1"><br>
-Imagen 1. Variable.<br>
+Imagen 2. Variable.<br>
 Fuente: Desafío Latam.
 </p>
 
